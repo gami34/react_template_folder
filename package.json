@@ -18,6 +18,8 @@
         "chartjs-adapter-moment": "^1.0.0",
         "cruip-js-toolkit": "^1.0.3",
         "date-fns": "^2.25.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
         "firebase": "^9.2.0",
         "graphql": "^15.5.3",
         "jquery": "^3.6.0",
@@ -64,19 +66,15 @@
         ]
     },
     "devDependencies": {
-        "babel-eslint": "^10.1.0",
-        "eslint": "^7.32.0",
-        "eslint-config-airbnb": "^18.2.1",
-        "eslint-config-prettier": "^7.2.0",
-        "eslint-plugin-import": "^2.22.1",
-        "eslint-plugin-jsx-a11y": "^6.4.1",
-        "eslint-plugin-prettier": "^3.3.1",
-        "eslint-plugin-react": "^7.22.0",
-        "eslint-plugin-react-hooks": "^4.2.0",
-        "husky": "^7.0.2",
-        "lint-staged": "^11.1.2",
-        "prettier": "^2.4.1",
-        "react-hooks": "^1.0.1"
+        "eslint": "7.32.0",
+        "eslint-config-standard": "16.0.3",
+        "eslint-plugin-import": "2.25.2",
+        "eslint-plugin-node": "11.1.0",
+        "eslint-plugin-promise": "5.1.1",
+        "eslint-plugin-react": "7.26.1",
+        "husky": "7.0.2",
+        "lint-staged": "11.1.2",
+        "prettier": "^2.4.1"
     },
     "lint-staged": {
         "*.{js,jsx,tsx,ts,scss,json,html}": [
